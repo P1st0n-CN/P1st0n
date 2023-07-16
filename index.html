@@ -23,7 +23,9 @@
 
   <canvas class="canvas-wrap" id="triangle-lost-in-space" resize="true"></canvas>
 
+
   <!-- loadding -->
+
   <div class="lodding-wrap">
     <div class="loadding-div"></div>
   </div>
@@ -41,11 +43,37 @@
       </video>
     </div>
   </div>
-
+	<!-- countdown -->
+  <div class="gn_box" style="position:absolute;left:50px;top:100px">    
+  <h1>
+  
+  <font color=#E80017>2</font>
+  <font color=#D1002E>0</font>
+  <font color=#BA0045>2</font>
+  <font color=#A3005C>3</font>
+  <font color=#8C0073>期</font>
+  <font color=#75008A>末</font>
+  <font color=#5E00A1>考</font>
+  <font color=#4700B8>试</font>
+  <font color=#3000CF>倒</font>
+  <font color=#1900E6>计</font>
+  <font color=#0200FD>时</font>
+  
+  </h1>    
+        
+  <div id="CountMsg" class="HotDate">         
+		<span id="t_d">X 天</span>       
+		<span id="t_h">X 时</span>            
+    <span id="t_m">X 分</span>           
+		<span id="t_s">X 秒</span>       
+     </div> 
+        </center>   
+      <script type="text/javascript"> function getRTime() {        var EndTime = new Date('2023/07/17 07:30:00');        var NowTime = new Date();        var t = EndTime.getTime() - NowTime.getTime();        var d = Math.floor(t / 1000 / 60 / 60 / 24);        var h = Math.floor(t / 1000 / 60 / 60 % 24);        var m = Math.floor(t / 1000 / 60 % 60);        var s = Math.floor(t / 1000 % 60);        document.getElementById("t_d").innerHTML = d + " 天";        document.getElementById("t_h").innerHTML = h + " 时";        document.getElementById("t_m").innerHTML = m + " 分";        document.getElementById("t_s").innerHTML = s + " 秒";    }    setInterval(getRTime, 1000);    </script></div>
   <!-- 主要页面 -->
   <div class="box">
 
     <!-- 顶部栏 -->
+    
     <div class="header borderafter">
       <!-- 返回按钮 -->
       <a style="position: absolute;left:50px;" href="javascript:history.back()">
@@ -59,7 +87,7 @@
 
 
       <div class="col">
-        <span>jjr语录</span>
+        <span>1</span>
         <!-- 右边操作栏 -->
 
         <div class="header-right">
@@ -113,7 +141,7 @@
           <span class="titleBox-tag">HI MY NEW FRIEND!</span>
           <h1>
             Hello<br>
-            I`m JiJiRui
+            I`m P1st0n
           </h1>
           <a class="buttom navbtn" href="#next-one">了解一下
           </a>
@@ -134,13 +162,12 @@
           <div class="mecar-title">
             <div class="me-image">
               <span class="status">
-                <i>林里谜案</i>
               </span>
               <img src="./img/toux.jpg" alt="">
             </div>
-            <h3>jjr的恋爱故事</h3>
+            <h3>开发者：P1st0n</h3>
             <p class="me-hover">
-              <span>“我爱你，王静怡”</span>
+              <span>P1st0n及电子宠物饲养群员的博客</span>
             </p>
           </div>
           <div class="borderbotm"></div>
@@ -182,14 +209,14 @@
             </a>
           </div>
           <div class="borderbotm"></div>
-          <div class="mecar-bottm">
+         <div class="mecar-bottm">
             <div>
-              <span class="mecarbottm-key">所在高中</span>
-              <span class="mecarbottm-value">大连樱华高级中学</span>
+              <span class="mecarbottm-key">所在城市</span>
+              <span class="mecarbottm-value">大连</span>
             </div>
             <div>
-              <span class="mecarbottm-key">人物形象</span>
-              <span class="mecarbottm-value">🌟😡</span>
+              <span class="mecarbottm-key">性别</span>
+              <span class="mecarbottm-value">男</span>
             </div>
             <div>
               <span class="mecarbottm-key">年级</span>
@@ -210,43 +237,42 @@
           <div class="li1-box borderbefore">
             <span>15</span><span class="tag">+</span>
             <div class="borderbotm"></div>
-            <p>被扒次数</p>
+            <p>团队人数</p>
           </div>
           <div class="li1-box borderbefore">
-            <span>3</span><span class="tag">+</span>
+            <span>2</span><span class="tag">+</span>
             <div class="borderbotm"></div>
-            <p>化学分数</p>
+            <p>薄纱jjr失败次数</p>
           </div>
           <div class="li1-box borderbefore">
             <span>5</span><span class="tag">+</span>
             <div class="borderbotm"></div>
-            <p>IQ</p>
+            <p>对jjr的仇恨值</p>
           </div>
         </div>
         <!-- 我的故事 -->
         <div class="content-li li2">
           <h3>
-            <span>我的故事</span>
+            <span>我们的故事</span>
             <div class="borderbotm"></div>
             <span>01</span>
           </h3>
           <div class="carbox li2-box">
             <blockquote>
-              I hope I could keep advancing and let my life shine as a precious stone.and let my life shine as a
-              precious stone.
+            一生之敌jjr
             </blockquote>
           </div>
         </div>
         <!-- 视频简历 -->
         <div class="content-li li3">
           <h3>
-            <span>T2噬菌体</span>
+            <span>最受欢迎的视频</span>
             <div class="borderbotm"></div>
             <span>02</span>
           </h3>
           <div class="carbox li3-box">
             <div class="play-buttom" id="playbuttom">
-
+						<img src="img/videoback.png" width="500" height="">
               <span><svg t="1649146869552" class="icon" viewBox="0 0 1024 1024" version="1.1"
                   xmlns="http://www.w3.org/2000/svg" p-id="20204" width="50" height="50">
                   <path d="M657.92 535.04l-256-160v320z" p-id="20205" data-spm-anchor-id="a313x.7781069.0.i27"
@@ -258,7 +284,7 @@
         <!-- 我的能力 -->
         <div class="content-li li4">
           <h3>
-            <span>我的能力</span>
+            <span>热门商品jjr</span>
             <div class="borderbotm"></div>
             <span>03</span>
           </h3>
@@ -301,10 +327,10 @@
                   fill="#333333" opacity=".18" p-id="1850"></path>
                 <path d="M496.64 762.88h40.96v143.36h-40.96z" fill="#333333" p-id="1851"></path>
               </svg>
-              <h4>道馆</h4>
+              <h4>黑客</h4>
               <p>
-                1cm小几把<br>
-                0.5RMB/DAY<br>
+                哥们你黑客啊<br>
+                
               </p>
               <a>现在下单</a>
             </div>
@@ -356,7 +382,7 @@
         </div>
 
         <!-- 我的期望薪资 (新加) -->
-        <div class="content-li li7">
+       <!-- <div class="content-li li7">
           <h3>
             <span>价格</span>
             <div class="borderbotm"></div>
@@ -396,7 +422,7 @@
               <button class="buttonsty">召唤</button>
             </div>
           </div>
-        </div>
+        </div>-->
 
         <!-- 我的专业教室 -->
         <div class="content-li li5">
@@ -430,7 +456,7 @@
 
             <div class="li5box-ul" id="li5boxul">
               <div class="li5box-car carbox">
-                <img src="./img/toux.jpg" alt="">
+                <img src="./img/touxge.jpg" alt="">
                 <h3>小小葛</h3>
                 <span>训淫大师<p class="throughline">jjr前女友</p></span>
                 <p>
@@ -438,7 +464,7 @@
                 </p>
               </div>
               <div class="li5box-car carbox">
-                <img src="./img/toux.jpg" alt="">
+                <img src="./img/touxzhou.jpg" alt="">
                 <h3>昼</h3>
                 <span>jjr的噩梦</span>
                 <p>
@@ -447,7 +473,7 @@
                 </p>
               </div>
               <div class="li5box-car carbox">
-                <img src="./img/toux.jpg" alt="">
+                <img src="./img/touxwang.jpg" alt="">
                 <h3>王静怡</h3>
 
                 <span>假想人物<p class="throughling">jjr女友<p></span>
@@ -464,7 +490,8 @@
           <h3>
             <span>关于
             </span>
-            <div class="borderbotm"></div>
+          <h3>正在建设中</h3>
+           <!-- <div class="borderbotm"></div>
             <span>06</span>
           </h3>
           <div class="li6-box">
@@ -473,8 +500,8 @@
                 <img src=" ./img/project/daohanglan.png" alt="">
               </a>
               <div class="li6car-title">
-                导航栏:基本实现:ul/li/a:hover
-                <br><br>2022.03.25
+                个人网站的搭建
+                <br><br>2022.07.15
                 <div class="borderbotm"></div>
                 <a href="http://123.56.144.92/nav/index.html">进入浏览</a>
               </div>
@@ -484,7 +511,7 @@
                 <img src="./img/project/hualang.png" alt="">
               </a>
               <div class="li6car-title">
-                画廊海报：基本实现:iframe/a/marquee
+                网站套CloudFlare提高访问速度
                 <br><br>2022.03.18
                 <div class="borderbotm"></div>
                 <a href="http://123.56.144.92/hualang/index.html">进入浏览</a>
@@ -495,19 +522,19 @@
                 <img src="./img/project/jianli.png" alt="">
               </a>
               <div class="li6car-title">
-                个人简历:animation+粒子
+                iOS及Android内网穿透
                 <br><br>2022.03.10
                 <div class="borderbotm"></div>
                 <a href="http://123.56.144.92/jianli/index.html">进入浏览</a>
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
 
         <div class="borderbotm"></div>
         <!-- 底部 -->
         <div class="carbox copybottm">
-          ©2022 wttandroid
+          ©2023 P1st0n
         </div>
       </div>
       <div class="left">
